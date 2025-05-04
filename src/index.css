@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@layer base{
+
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+}  
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@layer utilities{
+  .btnLinear{
+    background: #FD6F00;
+background: linear-gradient(0deg, rgba(253, 111, 0, 1) 0%, rgba(228, 100, 0, 1) 100%);
+  }
+}
+
+@theme{
+   --font-primary_font:"K2D";
+ --color-primary_bg: #1E1E1E;
+ --color-primary-text:#FD6F00;
+ --color-secondary-text:#FFFFFF;
+}
+
+
+
+html, body {
+  background-color: var(--color-primary_bg);
+ 
+}
+
+
+ .container{
+    margin: auto;
+ } 
+
+
+
+ @layer utilities {
+  .btnLinear,
+  .icon {
+    border: 5px solid transparent;
+    background: #FD6F00;
+    background: linear-gradient(
+      0deg,
+      rgba(253, 111, 0, 1) 0%,
+      rgba(228, 100, 0, 1) 100%
+    );
+    background-origin: border-box;
+    background-clip: border-box;
+  }
+
+  /* .gradient-border {
+    border: 5px solid transparent;
+    border-image-source: linear-gradient(
+      90deg,
+      #959595 0%,
+      #b0b0b0 50%,
+      #959595 100%
+    );
+    border-image-slice: 1;
+  } */
+}
+
+ @layer components {
+  .navItem {
+    @apply font-primary_font text-[#959595] hover:text-primary-text transition-colors ;
+  }
+  .LinearClr{
+    background: #984300;
+   background: linear-gradient(90deg, rgba(152, 67, 0, 1) 0%, rgba(253, 111, 0, 1) 46%, rgba(202, 89, 0, 1) 100%);
+  }
+ .bannerShadow{
+  background: url(./assets/images/bannerShade.png) no-repeat;
+ position: absolute;
+ top: 20px;
+right: 0px;
+}
+  
+ 
+}
