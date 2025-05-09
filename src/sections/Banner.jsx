@@ -8,7 +8,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 import Flex from "../components/Flex";
 import Button from "../components/Button";
 import BannerImg from "../assets/images/ORTHI.png";
-import BannerShade from "../assets/images/bannerShade.png";
+
+
 const Banner = () => {
   return (
     <section className="mt-8">
@@ -70,6 +71,7 @@ const Banner = () => {
               />
             </Flex>
           </div>
+
           <div>
             <img
               src={BannerImg}
@@ -77,29 +79,42 @@ const Banner = () => {
               alt=""
             />
           </div>
+          
+         
         </Flex>
         <Flex className="bg-[rgb(255,255,255,4%)] w-[534px] h-[185px] mb-5 rounded-2xl items-center justify-around font-secondary_font">
+
+            
           <div className="border-r-2 border-[#959595]">
             <h5 className="ml-5 text-primary-text font-extrabold text-[24px]">
               5+
             </h5>
-            <h6 className="ml-5 text-[#DFDFDF] font-bold text-[20px] mr-4">
+            <h6 className="ml-5 text-[#DFDFDF] font-bold text-[20px] mr-7">
               Experiences
             </h6>
+       
           </div>
+
+
+
+
           <div className="border-r-2 border-[#959595]">
-            <h5 className="ml-5 text-primary-text font-extrabold text-[24px]">
+            <h5 className="ml-4 text-primary-text font-extrabold text-[24px]">
               20+
             </h5>
-            <h6 className="ml-5 text-[#DFDFDF] font-bold text-[20px] mr-4">
+            <h6 className="ml-4  text-[#DFDFDF] font-bold text-[20px] mr-7">
               Project done
             </h6>
           </div>
+
+
+
+
           <div>
-            <h5 className="ml-5 text-primary-text font-extrabold text-[24px]">
+            <h5 className="ml-4 text-primary-text font-extrabold text-[24px]">
               80+
             </h5>
-            <h6 className="ml-5 text-[#DFDFDF] font-bold text-[20px] mr-4">
+            <h6 className="ml-4 text-[#DFDFDF] font-bold text-[20px] mr-7">
               Happy Clients
             </h6>
           </div>
