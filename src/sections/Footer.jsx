@@ -100,11 +100,15 @@ const Footer = () => {
             <MdOutlineSendToMobile />
           </a>
 
-          <h4 className="text-white">+880 1647860875</h4>
+          <h4 className="text-[#707070]">+880 1647860875</h4>
         </Flex>
-        <div className="border-b mb-6"></div>
+        <div className="border-b border-[#707070] w-[593px] mb-6 mx-auto">
 
-        <h2 className="text-white text-center pb-20">Designed & Developed by ORTHI DEB SITHI – Frontend Developer</h2>
+        </div>
+
+        <h2 className="text-[#707070] text-center pb-20">
+          Designed & Developed by ORTHI DEB SITHI – Frontend Developer
+        </h2>
       </Container>
     </footer>
   );
