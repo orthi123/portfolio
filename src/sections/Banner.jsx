@@ -32,6 +32,7 @@ const Banner = () => {
             <h1 className="bg-gradient-to-r from-[rgb(152,67,0)] via-[rgb(253,111,0)] to-[rgb(202,89,0)] bg-clip-text text-transparent font-black text-[70px]">
               Frontend Developer
             </h1>
+            
             <Flex className="text-[#BABABA] gap-4">
               <a
                 href="https://www.linkedin.com/in/orthi-deb-sithi-3b1b96282/"
@@ -62,6 +63,8 @@ const Banner = () => {
                 <FaInstagramSquare />
               </a>
             </Flex>
+
+
             <Flex className="mt-12 gap-5">
               <Button text={"Hire Me"} className="rounded-2xl" />
               <Button

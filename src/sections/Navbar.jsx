@@ -30,7 +30,7 @@ let menu = [
 
 const Navbar = () => {
   return (
-    <nav className>
+    <nav>
       <Container>
         <Flex className="items-center justify-between text-center pt-4 font-primary_font text-xl">
           <div>

@@ -19,22 +19,32 @@ const Contact = () => {
               <div className="h-[54px] bg-[rgb(255,255,255,4%)]  mb-8 text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl">
                 Name
               </div>
+
+
+
               <div className="h-[54px] bg-[rgb(255,255,255,4%)]  mb-8 text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl">
                 Phone Number
               </div>
+
+
               <div className="h-[54px] bg-[rgb(255,255,255,4%)]  text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl">
                 Timeline
               </div>
+
+
             </div>
 
             <div className="w-[50%]  h-full">
               <div className="h-[54px] bg-[rgb(255,255,255,4%)]  mb-8 text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl">
                 Email
               </div>
+
+
               <Flex className="h-[54px] bg-[rgb(255,255,255,4%)] mb-8 pr-6 text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl justify-between">
                 Service of Interest
                 <IoIosArrowDown />
               </Flex>
+              
               <div className="h-[162px] bg-[rgb(255,255,255,4%)]  text-[#959595] font-medium text-[16px] pl-5 pt-4 rounded-xl">
                 Project Details...
               </div>
